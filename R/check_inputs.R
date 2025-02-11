@@ -12,10 +12,16 @@
 #' @export
 #'
 #' @examples
+#' Host_tree <- ape::rtree(10)
+#' Symbiont_tree <- ape::rtree(100)
+#' Host_to_Symbiont_df <- data.frame("Host" = rep(Host_tree$tip.label, 10), 
+#'                                     "Symbiont" = Symbiont_tree$tip.label)
 #' check_inputs(Host_tree, Symbiont_tree, Host_to_Symbiont_df, 3, 7, 0.25, 99)
 #'
-check_inputs <- function(Host_tree, Symbiont_tree, Host_to_Symbiont_df, min_hosts, min_symbiont_tips, span_fraction, permutations) {
-  if (class(Host_tree) != "phylo" | class(Symbiont_tree) != "phylo") {
+check_inputs <- function(Host_tree, Symbiont_tree, Host_to_Symbiont_df, 
+                         min_hosts, min_symbiont_tips, span_fraction, 
+                         permutations) {
+  if (methods::is(Host_tree, "phylo") | methods::is(Symbiont_tree, "phylo")) {
     message("`Host_tree` and `Symbiont_tree` Inputs must be binary phylogentic trees")
   }
   

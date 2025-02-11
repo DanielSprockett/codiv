@@ -36,6 +36,10 @@ Tests to make sure the inputs are acceptable
 Checks inputs to \code{codiv()}
 }
 \examples{
+Host_tree <- ape::rtree(10)
+Symbiont_tree <- ape::rtree(100)
+Host_to_Symbiont_df <- data.frame("Host" = rep(Host_tree$tip.label, 10), 
+                                    "Symbiont" = Symbiont_tree$tip.label)
 check_inputs(Host_tree, Symbiont_tree, Host_to_Symbiont_df, 3, 7, 0.25, 99)
 
 }
