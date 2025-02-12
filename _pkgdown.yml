@@ -1,0 +1,5 @@
+url: https://danielsprockett.github.io/codiv/
+template:
+  bootstrap: 5
+  bootswatch: flatly
+
