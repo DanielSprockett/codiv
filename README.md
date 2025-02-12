@@ -19,6 +19,8 @@ with the host tree. Nodes with a high degree of correlation are
 consistent with codiversification between hosts and those symbionts.
 Other helper functions are also included.
 
+[![DOI](https://zenodo.org/badge/931169650.svg)](https://doi.org/10.5281/zenodo.14859771)
+
 ## Installation
 
 You can install the development version of codiv from
