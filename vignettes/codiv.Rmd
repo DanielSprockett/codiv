@@ -15,16 +15,23 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r import}
+```{r load packages}
+
+require(ape)
+
+```
+
+
+```{r import data}
 
 # import input files
-Host_tr <- read.tree("./data/Host_Tree.nwk")
+Host_tr <- read.tree("/Users/danielsprockett/Software/codiv/data/Host_Tree.nwk")
 Host_tr 
 
-Symbiont_tr <- read.tree("./data/Symbiont_Tree.treefile")
+Symbiont_tr <- read.tree("/Users/danielsprockett/Software/codiv/data/Symbiont_Tree.treefile")
 Symbiont_tr 
 
-Host_to_Symbiont_df <- read.table("./data/Host_to_Symbiont.txt", sep = "\t", header = TRUE)
+Host_to_Symbiont_df <- read.table("/Users/danielsprockett/Software/codiv/data/Host_to_Symbiont.txt", sep = "\t", header = TRUE)
 dim(Host_to_Symbiont_df)
 
 

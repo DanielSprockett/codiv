@@ -1,8 +1,9 @@
 pandoc: '3.2'
 pkgdown: 2.1.1
 pkgdown_sha: ~
-articles: {}
-last_built: 2025-02-12T06:36Z
+articles:
+  codiv: codiv.html
+last_built: 2025-02-12T06:57Z
 urls:
   reference: https://danielsprockett.github.io/codiv/reference
   article: https://danielsprockett.github.io/codiv/articles
