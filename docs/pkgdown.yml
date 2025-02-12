@@ -3,7 +3,7 @@ pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   codiv: codiv.html
-last_built: 2025-02-12T06:57Z
+last_built: 2025-02-12T07:06Z
 urls:
   reference: https://danielsprockett.github.io/codiv/reference
   article: https://danielsprockett.github.io/codiv/articles
