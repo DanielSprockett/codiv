@@ -32,6 +32,6 @@ devtools::install_github("DanielSprockett/codiv")
 Citation:
 
 > Daniel D. Sprockett, Brian A. Dillard, Abigail A. Landers, Jon G.
-> Sanders, Andrew H. Moeller.(2025)**Recent genetic drift in the
-> co-diversified gut bacterial symbionts of laboratory mice** *Nature
-> Communications*: Accepted.
+> Sanders, Andrew H. Moeller. (2025) **Recent genetic drift in the
+> co-diversified gut bacterial symbionts of laboratory mice.** *Nature
+> Communications* Accepted.
