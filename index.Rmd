@@ -1,0 +1,25 @@
+---
+title: "index"
+output: github_document
+---
+
+## *codiv* ##
+
+<br/>
+
+codiv is an R package that runs codiversification scans between symbionts and their hosts.  <br/>
+
+<br/>
+
+To Install:
+
+```
+install.packages("devtools")
+
+library(devtools)
+
+install_github("DanielSprockett/codiv")
+```
+<br/>
+
+This package is under active development, so please let me know if you run into any issues.
