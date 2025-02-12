@@ -28,6 +28,11 @@ Imports:
     TreeDist,
     vegan
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
+Remotes: 
+    apTreeshape@1.5-0.1
 Config/testthat/edition: 3
 URL: https://danielsprockett.github.io/codiv/
+VignetteBuilder: knitr
